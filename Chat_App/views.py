@@ -4,7 +4,7 @@ from django.shortcuts import render
 
 from .models import registerUser
 
-
+'''----------------------------------------------------Hello Bro what is Demo----------------------------------------------'''
 def index(request):             # render the index.html file
     return render(request, 'Chat_App/index.html', {})
 
